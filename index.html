@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty World</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Optional custom styles -->
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            background-image: url('MEDIA/Firefly 20241028184128.png') !important;
+            /* Replace with your image */
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        .navbar {
+            background-color: rgba(30, 30, 30, 0.85);
+            /* Semi-transparent for effect */
+        }
+
+        .jumbotron {
+            background: url('hero-image-dark.jpg') no-repeat center;
+            background-size: cover;
+            color: white;
+        }
+
+        .card {
+            background-color: #1e1e1e;
+            border: none;
+        }
+
+        .card-title {
+            color: #ffffff;
+        }
+
+        .btn-primary {
+            background-color: #ffffff;
+            border: none;
+            color: #000000;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: #ffffff;
+        }
+
+        footer a {
+            color: #ffffff;
+        }
+
+        .promo-banner {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 150PX;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Beauty World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to Beauty World</h1>
+            <p class="lead">Discover the best beauty products curated just for you.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Shop Now</a>
+        </div>
+    </div>
+
+    <!-- Promotional Banner -->
+    <div class="promo-banner">
+        <h4>Limited Time Offer: 10% TO 70% Off All Products! VISIT NOW</h4>
+    </div>
+
+    <div style="margin: 100PX;" class="card mb-3">
+        <img src="MEDIA/Firefly 20241102190343.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Jewellery SECTION </h5>
+            <p class="card-text">This is a our Jewellery section featuring variety of indian and western Jewellery such
+                as sets,pendents,rings,bracelets,earring,bangles etc.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div style="margin: 100PX;" class="card">
+        <div class="card-body">
+            <h5 class="card-title">FMCG SECTION </h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+        <img src="MEDIA/1.png" class="card-img-top" alt="...">
+    </div>
+
+    <!-- Product Section -->
+    <section id="products">
+        <div class="container my-5">
+            <h2 class="text-center">Featured Products</h2>
+            <div class="row">
+                <!-- Product Card 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="MEDIA/images.jpeg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Cosmetics</h5>
+                            <p class="card-text">10-50% Off</p>
+                            <a href="#" class="btn btn-primary">View more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="MEDIA/images (1).jpeg" class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Jewellery</h5>
+                            <p class="card-text">10% Off</p>
+                            <a href="#" class="btn btn-primary">View more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="MEDIA/images (2).jpeg" class="card-img-top" alt="Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Bags</h5>
+                            <p class="card-text">10% Off</p>
+                            <a href="C:\Users\HP\OneDrive\Desktop\WEBSITE\GitHub\beauty\product.html" class="btn btn-primary">View more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <div class="container my-5">
+        <h2 class="text-center">What Our Customers Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <p class="card-text">"Amazing products! My skin has never felt better!"</p>
+                        <h5 class="card-title">- Sarah L.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <p class="card-text">"Great customer service and fast shipping!"</p>
+                        <h5 class="card-title">- Emily R.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <p class="card-text">"I love the variety of products available!"</p>
+                        <h5 class="card-title">- Jessica K.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Section -->
+
+    <a style="margin-left: 35pc;" class="btn btn-primary btn-lg text-center "
+        href="https://www.instagram.com/reel/DBlxKvbIz8c/?utm_source=ig_embed&amp;utm_campaign=loading">Watch us on
+        Instagram</a> </div>
+    <!-- About Us Section -->
+    <section id="about"></section>
+    <div id="ABOUT" class="container my-5">
+        <h2 class="text-center">About Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Our Story</h5>
+                <p>Welcome to Beauty World, your ultimate destination for all things beauty! Founded with a passion for
+                    enhancing beauty and self-care, we offer a carefully curated selection of high-quality beauty
+                    products ranging from cosmetics to accessories. Our journey began with a simple idea: to empower
+                    individuals to express themselves through beauty.</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Our Mission</h5>
+                <p>At Beauty World, our mission is to provide you with the best beauty products that inspire confidence
+                    and creativity. We strive to bring you the latest trends and innovations in the beauty industry,
+                    ensuring that our customers always have access to the finest products at affordable prices. Your
+                    satisfaction is our top priority.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h5>Why Choose Us?</h5>
+                <ul>
+                    <li>Wide Range of Products: From skincare to accessories, we have something for everyone.</li>
+                    <li>Quality Assurance: We handpick every item to ensure quality and effectiveness.</li>
+                    <li>Customer-Centric Service: Our team is dedicated to providing you with exceptional service.</li>
+                    <li>Exclusive Offers: Enjoy regular discounts and promotions on your favorite products.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h5>Join Our Community</h5>
+                <p>We believe beauty is best when shared. Join our community on social media to stay updated on the
+                    latest trends, tips, and exclusive offers. Connect with fellow beauty enthusiasts and be part of our
+                    growing family!</p>
+                <div class="social-media">
+                    <a href="https://facebook.com" target="_blank"><img src="MEDIA/22.jpg" alt="Facebook" width="50"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="MEDIA/23.jpg" alt="Instagram" width="50"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+
+
+    <!-- < ! -- Footer -->
+    <footer class="text-center my-5">
+        <div class="container">
+            <p>&copy; 2024 Beauty World. All rights reserved.</p>
+            <DIV>MOHIT RAMEJA </DIV>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank"><img src="MEDIA/22.jpg" alt="Facebook" width="50"></a>
+                <a href="https://instagram.com" target="_blank"><img src="MEDIA/23.jpg" alt="Instagram" width="50"></a>
+
+
+            </div>
+        </div>
+    </footer>
